@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="de-DE" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="wave_common.lua"></file>
+  <file original="wave_cross_sections.lua"></file>
+  <file original="wave_main.lua">
+    <unit id="11b3caf8a12005f3">
+      <segment>
+        <source>Soft wave</source>
+      </segment>
+    </unit>
+    <unit id="17e4359e2023e033">
+      <segment>
+        <source>Soft wave (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="7012dd3faf217023">
+      <segment>
+        <source>Round groove</source>
+      </segment>
+    </unit>
+    <unit id="2151a427a5cbb608">
+      <segment>
+        <source>Round groove (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="4813e5e1ffd424c3">
+      <segment>
+        <source>Ballnose</source>
+      </segment>
+    </unit>
+    <unit id="3bb291eb017500ce">
+      <segment>
+        <source>Ballnose (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="58cc9c55e253d090">
+      <segment>
+        <source>V-cut</source>
+      </segment>
+    </unit>
+    <unit id="6b6528c77de6fd4c">
+      <segment>
+        <source>V-cut (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="2a9cdbdbf9adb2d2">
+      <segment>
+        <source>Broad round</source>
+      </segment>
+    </unit>
+    <unit id="088cb499f65221f4">
+      <segment>
+        <source>Broad round (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="18bb8b7dae6f22a5">
+      <segment>
+        <source>Cloth fold</source>
+      </segment>
+    </unit>
+    <unit id="75e5edfad0e751c8">
+      <segment>
+        <source>Cloth fold (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="60dc0884eb6119ec">
+      <segment>
+        <source>Double bead</source>
+      </segment>
+    </unit>
+    <unit id="03644106a8304124">
+      <segment>
+        <source>Double bead (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="4eeab91958359b76">
+      <segment>
+        <source>Dune</source>
+      </segment>
+    </unit>
+    <unit id="015c70a713c7192c">
+      <segment>
+        <source>Dune (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="1365149a0364db88">
+      <segment>
+        <source>Sharp step</source>
+      </segment>
+    </unit>
+    <unit id="1adcdb7bb312f064">
+      <segment>
+        <source>Sharp step (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="08d8285a71c18902">
+      <segment>
+        <source>Smooth step</source>
+      </segment>
+    </unit>
+    <unit id="551540fda104fe62">
+      <segment>
+        <source>Smooth step (periodic)</source>
+      </segment>
+    </unit>
+    <unit id="2aa08e799741aa4d">
+      <segment>
+        <source>Global</source>
+      </segment>
+    </unit>
+    <unit id="58954d3afc7cf349">
+      <segment>
+        <source>Packet</source>
+      </segment>
+    </unit>
+    <unit id="0605ffb2140372b2">
+      <segment>
+        <source>Drop</source>
+      </segment>
+    </unit>
+    <unit id="2c7e5bf54666a3ee">
+      <segment>
+        <source>Wave Shape</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "2aa08e799741aa4d" string: "Global"-->
+    <!--Unit id already exists: "58954d3afc7cf349" string: "Packet"-->
+    <!--Unit id already exists: "0605ffb2140372b2" string: "Drop"-->
+    <!--Unit id already exists: "11b3caf8a12005f3" string: "Soft wave"-->
+    <!--Unit id already exists: "17e4359e2023e033" string: "Soft wave (periodic)"-->
+    <!--Unit id already exists: "7012dd3faf217023" string: "Round groove"-->
+    <!--Unit id already exists: "2151a427a5cbb608" string: "Round groove (periodic)"-->
+    <!--Unit id already exists: "4813e5e1ffd424c3" string: "Ballnose"-->
+    <!--Unit id already exists: "3bb291eb017500ce" string: "Ballnose (periodic)"-->
+    <!--Unit id already exists: "58cc9c55e253d090" string: "V-cut"-->
+    <!--Unit id already exists: "6b6528c77de6fd4c" string: "V-cut (periodic)"-->
+    <!--Unit id already exists: "2a9cdbdbf9adb2d2" string: "Broad round"-->
+    <!--Unit id already exists: "088cb499f65221f4" string: "Broad round (periodic)"-->
+    <!--Unit id already exists: "18bb8b7dae6f22a5" string: "Cloth fold"-->
+    <!--Unit id already exists: "75e5edfad0e751c8" string: "Cloth fold (periodic)"-->
+    <!--Unit id already exists: "60dc0884eb6119ec" string: "Double bead"-->
+    <!--Unit id already exists: "03644106a8304124" string: "Double bead (periodic)"-->
+    <!--Unit id already exists: "4eeab91958359b76" string: "Dune"-->
+    <!--Unit id already exists: "015c70a713c7192c" string: "Dune (periodic)"-->
+    <!--Unit id already exists: "1365149a0364db88" string: "Sharp step"-->
+    <!--Unit id already exists: "1adcdb7bb312f064" string: "Sharp step (periodic)"-->
+    <!--Unit id already exists: "08d8285a71c18902" string: "Smooth step"-->
+    <!--Unit id already exists: "551540fda104fe62" string: "Smooth step (periodic)"-->
+    <unit id="4144a546ec1ff9be">
+      <segment>
+        <source>One sided block</source>
+      </segment>
+    </unit>
+    <unit id="700bef2ad8b20349">
+      <segment>
+        <source>Two sided block</source>
+      </segment>
+    </unit>
+    <unit id="335fc7abe7de3e95">
+      <segment>
+        <source>Face</source>
+      </segment>
+    </unit>
+    <unit id="72767df11cc7fba8">
+      <segment>
+        <source>Profile</source>
+      </segment>
+    </unit>
+    <unit id="34d9c330d94fdf8f">
+      <segment>
+        <source>Solid</source>
+      </segment>
+    </unit>
+    <unit id="6726b235d785d68e">
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="3e45b51557956431">
+      <segment>
+        <source>Origin</source>
+      </segment>
+    </unit>
+    <unit id="597ecb2f697fd59c">
+      <segment>
+        <source>Pick</source>
+      </segment>
+    </unit>
+    <unit id="41a427cf7b1eba13">
+      <segment>
+        <source>Base shape</source>
+      </segment>
+    </unit>
+    <unit id="50cfc38c711bed8d">
+      <segment>
+        <source>Dimensions</source>
+      </segment>
+    </unit>
+    <unit id="7cc83fb8f14d8c4a">
+      <segment>
+        <source>Length</source>
+      </segment>
+    </unit>
+    <unit id="592a68fc7bfe32a5">
+      <segment>
+        <source>Width</source>
+      </segment>
+    </unit>
+    <unit id="55080f47c80745ec">
+      <segment>
+        <source>Height</source>
+      </segment>
+    </unit>
+    <unit id="2917fed7ae8ec978">
+      <segment>
+        <source>Base radius</source>
+      </segment>
+    </unit>
+    <unit id="1bf6e3153df9e86e">
+      <segment>
+        <source>Sections</source>
+      </segment>
+    </unit>
+    <unit id="111e82b3ca7d219c">
+      <segment>
+        <source>Points / section</source>
+      </segment>
+    </unit>
+    <unit id="46a5dac7075a8b23">
+      <segment>
+        <source>Output</source>
+      </segment>
+    </unit>
+    <unit id="1af05863b2b338fe">
+      <segment>
+        <source>Profile thickness</source>
+      </segment>
+    </unit>
+    <unit id="28966f1f9b99de39">
+      <segment>
+        <source>Features</source>
+      </segment>
+    </unit>
+    <unit id="484cf51118375692">
+      <segment>
+        <source>New</source>
+      </segment>
+    </unit>
+    <unit id="0efaf8fd9a74d36d">
+      <segment>
+        <source>Delete</source>
+      </segment>
+    </unit>
+    <unit id="6b3de405d9697102">
+      <segment>
+        <source>Cross section</source>
+      </segment>
+    </unit>
+    <unit id="4ed5adb6f7548d1c">
+      <segment>
+        <source>Path mode</source>
+      </segment>
+    </unit>
+    <unit id="564b659a80f3fdc4">
+      <segment>
+        <source>Amplitude</source>
+      </segment>
+    </unit>
+    <unit id="1e262a226b1add57">
+      <segment>
+        <source>± Amp (%)</source>
+      </segment>
+    </unit>
+    <unit id="003e6f2b14f1b116">
+      <segment>
+        <source>Width (%)</source>
+      </segment>
+    </unit>
+    <unit id="34ffd323ec36aa9f">
+      <segment>
+        <source>± Width (%)</source>
+      </segment>
+    </unit>
+    <unit id="308f3edb8034a11d">
+      <segment>
+        <source>Frequency</source>
+      </segment>
+    </unit>
+    <unit id="5244cf79a2a28da5">
+      <segment>
+        <source>Angle</source>
+      </segment>
+    </unit>
+    <unit id="77a661c80680514d">
+      <segment>
+        <source>Phase (%)</source>
+      </segment>
+    </unit>
+    <unit id="24e49d2ef31f0d9b">
+      <segment>
+        <source>Shift amp. (%)</source>
+      </segment>
+    </unit>
+    <unit id="183a0da7db5fe7ce">
+      <segment>
+        <source>Center U (%)</source>
+      </segment>
+    </unit>
+    <unit id="277e891312d6c4df">
+      <segment>
+        <source>Center V (%)</source>
+      </segment>
+    </unit>
+    <unit id="2bb30418b1d54c52">
+      <segment>
+        <source>Size U (%)</source>
+      </segment>
+    </unit>
+    <unit id="6e36387731810e50">
+      <segment>
+        <source>Size V (%)</source>
+      </segment>
+    </unit>
+    <unit id="21f4091b90960be0">
+      <segment>
+        <source>No data found</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "2c7e5bf54666a3ee" string: "Wave Shape"-->
+  </file>
+  <file original="wave_paths.lua"></file>
+  <file original="wave_profiles.lua"></file>
+</xliff>

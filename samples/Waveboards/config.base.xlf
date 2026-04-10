@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="de-DE" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="config.xml">
+    <unit id="2ba7724c5f97ad58">
+      <segment>
+        <source>Waveboards</source>
+      </segment>
+    </unit>
+    <unit id="159d346d509b3d05">
+      <segment>
+        <source>The description of your plugin goes here.</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "2ba7724c5f97ad58" string: "Waveboards"-->
+    <unit id="22c0d4ad614f4bae">
+      <segment>
+        <source>A short description of the function goes here.</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

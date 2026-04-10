@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="en-US" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" trgLang="ko-KR">
+  <file original="wave_main.lua">
+    <unit id="11b3caf8a12005f3"><segment state="translated"><source>Soft wave</source><target>부드러운 파형</target></segment></unit>
+    <unit id="17e4359e2023e033"><segment state="translated"><source>Soft wave (periodic)</source><target>부드러운 파형 (주기적)</target></segment></unit>
+    <unit id="7012dd3faf217023"><segment state="translated"><source>Round groove</source><target>둥근 홈</target></segment></unit>
+    <unit id="2151a427a5cbb608"><segment state="translated"><source>Round groove (periodic)</source><target>둥근 홈 (주기적)</target></segment></unit>
+    <unit id="4813e5e1ffd424c3"><segment state="translated"><source>Ballnose</source><target>볼 노즈</target></segment></unit>
+    <unit id="3bb291eb017500ce"><segment state="translated"><source>Ballnose (periodic)</source><target>볼 노즈 (주기적)</target></segment></unit>
+    <unit id="58cc9c55e253d090"><segment state="translated"><source>V-cut</source><target>V자 절삭</target></segment></unit>
+    <unit id="6b6528c77de6fd4c"><segment state="translated"><source>V-cut (periodic)</source><target>V자 절삭 (주기적)</target></segment></unit>
+    <unit id="2a9cdbdbf9adb2d2"><segment state="translated"><source>Broad round</source><target>넓은 라운드</target></segment></unit>
+    <unit id="088cb499f65221f4"><segment state="translated"><source>Broad round (periodic)</source><target>넓은 라운드 (주기적)</target></segment></unit>
+    <unit id="18bb8b7dae6f22a5"><segment state="translated"><source>Cloth fold</source><target>천 접기</target></segment></unit>
+    <unit id="75e5edfad0e751c8"><segment state="translated"><source>Cloth fold (periodic)</source><target>천 접기 (주기적)</target></segment></unit>
+    <unit id="60dc0884eb6119ec"><segment state="translated"><source>Double bead</source><target>이중 비드</target></segment></unit>
+    <unit id="03644106a8304124"><segment state="translated"><source>Double bead (periodic)</source><target>이중 비드 (주기적)</target></segment></unit>
+    <unit id="4eeab91958359b76"><segment state="translated"><source>Dune</source><target>모래 언덕</target></segment></unit>
+    <unit id="015c70a713c7192c"><segment state="translated"><source>Dune (periodic)</source><target>모래 언덕 (주기적)</target></segment></unit>
+    <unit id="1365149a0364db88"><segment state="translated"><source>Sharp step</source><target>날카로운 단계</target></segment></unit>
+    <unit id="1adcdb7bb312f064"><segment state="translated"><source>Sharp step (periodic)</source><target>날카로운 단계 (주기적)</target></segment></unit>
+    <unit id="08d8285a71c18902"><segment state="translated"><source>Smooth step</source><target>부드러운 단계</target></segment></unit>
+    <unit id="551540fda104fe62"><segment state="translated"><source>Smooth step (periodic)</source><target>부드러운 단계 (주기적)</target></segment></unit>
+    <unit id="2aa08e799741aa4d"><segment state="translated"><source>Global</source><target>전체</target></segment></unit>
+    <unit id="58954d3afc7cf349"><segment state="translated"><source>Packet</source><target>패킷</target></segment></unit>
+    <unit id="0605ffb2140372b2"><segment state="translated"><source>Drop</source><target>드롭</target></segment></unit>
+    <unit id="2c7e5bf54666a3ee"><segment state="translated"><source>Wave Shape</source><target>파형</target></segment></unit>
+    <unit id="4144a546ec1ff9be"><segment state="translated"><source>One sided block</source><target>단면 블록</target></segment></unit>
+    <unit id="700bef2ad8b20349"><segment state="translated"><source>Two sided block</source><target>양면 블록</target></segment></unit>
+    <unit id="6726b235d785d68e"><segment state="translated"><source>Name</source><target>이름</target></segment></unit>
+    <unit id="3e45b51557956431"><segment state="translated"><source>Origin</source><target>원점</target></segment></unit>
+    <unit id="597ecb2f697fd59c"><segment state="translated"><source>Pick</source><target>선택</target></segment></unit>
+    <unit id="41a427cf7b1eba13"><segment state="translated"><source>Base shape</source><target>기본 형태</target></segment></unit>
+    <unit id="50cfc38c711bed8d"><segment state="translated"><source>Dimensions</source><target>치수</target></segment></unit>
+    <unit id="7cc83fb8f14d8c4a"><segment state="translated"><source>Length</source><target>길이</target></segment></unit>
+    <unit id="592a68fc7bfe32a5"><segment state="translated"><source>Width</source><target>폭</target></segment></unit>
+    <unit id="55080f47c80745ec"><segment state="translated"><source>Height</source><target>높이</target></segment></unit>
+    <unit id="2917fed7ae8ec978"><segment state="translated"><source>Base radius</source><target>기본 반지름</target></segment></unit>
+    <unit id="1bf6e3153df9e86e"><segment state="translated"><source>Sections</source><target>섹션</target></segment></unit>
+    <unit id="111e82b3ca7d219c"><segment state="translated"><source>Points / section</source><target>점 / 섹션</target></segment></unit>
+    <unit id="46a5dac7075a8b23"><segment state="translated"><source>Output</source><target>출력</target></segment></unit>
+    <unit id="1af05863b2b338fe"><segment state="translated"><source>Profile thickness</source><target>프로파일 두께</target></segment></unit>
+    <unit id="28966f1f9b99de39"><segment state="translated"><source>Features</source><target>요소</target></segment></unit>
+    <unit id="484cf51118375692"><segment state="translated"><source>New</source><target>새로 만들기</target></segment></unit>
+    <unit id="0efaf8fd9a74d36d"><segment state="translated"><source>Delete</source><target>삭제</target></segment></unit>
+    <unit id="6b3de405d9697102"><segment state="translated"><source>Cross section</source><target>단면</target></segment></unit>
+    <unit id="4ed5adb6f7548d1c"><segment state="translated"><source>Path mode</source><target>경로 모드</target></segment></unit>
+    <unit id="564b659a80f3fdc4"><segment state="translated"><source>Amplitude</source><target>진폭</target></segment></unit>
+    <unit id="1e262a226b1add57"><segment state="translated"><source>± Amp (%)</source><target>± 진폭 (%)</target></segment></unit>
+    <unit id="003e6f2b14f1b116"><segment state="translated"><source>Width (%)</source><target>폭 (%)</target></segment></unit>
+    <unit id="34ffd323ec36aa9f"><segment state="translated"><source>± Width (%)</source><target>± 폭 (%)</target></segment></unit>
+    <unit id="308f3edb8034a11d"><segment state="translated"><source>Frequency</source><target>주파수</target></segment></unit>
+    <unit id="5244cf79a2a28da5"><segment state="translated"><source>Angle</source><target>각도</target></segment></unit>
+    <unit id="77a661c80680514d"><segment state="translated"><source>Phase (%)</source><target>위상 (%)</target></segment></unit>
+    <unit id="24e49d2ef31f0d9b"><segment state="translated"><source>Shift amp. (%)</source><target>이동 진폭 (%)</target></segment></unit>
+    <unit id="183a0da7db5fe7ce"><segment state="translated"><source>Center U (%)</source><target>중심 U (%)</target></segment></unit>
+    <unit id="277e891312d6c4df"><segment state="translated"><source>Center V (%)</source><target>중심 V (%)</target></segment></unit>
+    <unit id="2bb30418b1d54c52"><segment state="translated"><source>Size U (%)</source><target>크기 U (%)</target></segment></unit>
+    <unit id="6e36387731810e50"><segment state="translated"><source>Size V (%)</source><target>크기 V (%)</target></segment></unit>
+    <unit id="21f4091b90960be0"><segment state="translated"><source>No data found</source><target>데이터를 찾을 수 없습니다</target></segment></unit>
+    <unit id="335fc7abe7de3e95"><segment state="translated"><source>Face</source><target>면</target></segment></unit>
+    <unit id="72767df11cc7fba8"><segment state="translated"><source>Profile</source><target>프로파일</target></segment></unit>
+    <unit id="34d9c330d94fdf8f"><segment state="translated"><source>Solid</source><target>솔리드</target></segment></unit>
+  </file>
+</xliff>

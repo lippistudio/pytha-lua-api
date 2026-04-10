@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waveboards – Help</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: #222;
+      background: #fff;
+      margin: 0;
+      padding: 16px 24px 32px 24px;
+      max-width: 800px;
+    }
+    h1 { font-size: 20px; color: #1a4a7a; margin-top: 0; border-bottom: 2px solid #1a4a7a; padding-bottom: 6px; }
+    h2 { font-size: 15px; color: #1a4a7a; margin-top: 22px; margin-bottom: 6px; border-bottom: 1px solid #c8d8ea; padding-bottom: 3px; }
+    h3 { font-size: 13px; color: #333; margin-top: 14px; margin-bottom: 4px; }
+    p  { margin: 5px 0 10px 0; line-height: 1.5; }
+    ul, ol { margin: 4px 0 10px 18px; padding: 0; line-height: 1.6; }
+    li { margin-bottom: 3px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 12px; font-size: 12px; }
+    th { background: #1a4a7a; color: #fff; text-align: left; padding: 5px 8px; }
+    td { padding: 4px 8px; border-bottom: 1px solid #dde; vertical-align: top; }
+    tr:nth-child(even) td { background: #f4f7fb; }
+    .note { background: #fffbe6; border-left: 3px solid #e6b800; padding: 6px 10px; margin: 10px 0; font-size: 12px; }
+    .label { font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<h1>Waveboards</h1>
+<p>
+  The <strong>Waveboards</strong> plugin generates parametric wave-shaped 3D surfaces on a
+  rectangular base — suitable for corrugated boards, washboards, decorative panels,
+  and any product with a profiled ripple surface. Multiple independent wave features
+  can be layered and combined. All changes are previewed live in the 3D view.
+</p>
+
+<h2>Quick Start</h2>
+<ol>
+  <li>Set <strong>Name</strong>, <strong>Origin</strong>, and <strong>Dimensions</strong>.</li>
+  <li>Choose a <strong>Base shape</strong> (<em>One sided block</em> or <em>Two sided block</em>).</li>
+  <li>Select an <strong>Output</strong> mode (<em>Face</em>, <em>Profile</em>, or <em>Solid</em>).</li>
+  <li>In the <strong>Features</strong> section, adjust the wave parameters of the default feature
+      or add new ones with <strong>New</strong>.</li>
+  <li>Confirm with <strong>OK</strong> to place the geometry.</li>
+</ol>
+
+<h2>General Parameters</h2>
+<table>
+  <tr><th>Parameter</th><th>Description</th></tr>
+  <tr><td class="label">Name</td><td>Name assigned to the created geometry element.</td></tr>
+  <tr><td class="label">Origin</td><td>Position of the bottom-left-front corner of the bounding box in model coordinates. Use <strong>Pick</strong> to click a point in the 3D view.</td></tr>
+  <tr><td class="label">Base shape</td><td>
+    <strong>One sided block</strong> — wave on one face only; the opposite face remains flat.<br>
+    <strong>Two sided block</strong> — wave is mirrored symmetrically on both faces.
+  </td></tr>
+  <tr><td class="label">Length</td><td>Dimension along the X axis (board length).</td></tr>
+  <tr><td class="label">Width</td><td>Dimension along the Y axis (board thickness).</td></tr>
+  <tr><td class="label">Height</td><td>Dimension along the Z axis (board height).</td></tr>
+  <tr><td class="label">Sections</td><td>Number of cross-section slices along the length (X). Higher values produce smoother waves along the length direction. Minimum 2.</td></tr>
+  <tr><td class="label">Points / section</td><td>Number of points per cross-section (Z direction). Higher values produce smoother wave profiles. Minimum 3.</td></tr>
+</table>
+
+<h2>Output Mode</h2>
+<table>
+  <tr><th>Mode</th><th>Description</th></tr>
+  <tr><td class="label">Face</td><td>Creates open surface polygons — one cross-section polygon per slice. Lightweight; suitable for visualisation or CNC toolpaths.</td></tr>
+  <tr><td class="label">Profile</td><td>Extrudes each cross-section polygon by <strong>Profile thickness</strong> to produce a board-like solid profile along the length.</td></tr>
+  <tr><td class="label">Solid</td><td>Triangulates the surface into a fully closed solid body. All faces are included and merged into a single part.</td></tr>
+</table>
+<p><span class="label">Profile thickness</span> is only active in <em>Profile</em> mode and defines
+the extrusion depth in object units (e.g. mm).</p>
+
+<h2>Features</h2>
+<p>
+  A <strong>feature</strong> is a single wave component. Multiple features can be stacked — their
+  displacements are summed at every surface point. Each feature has its own profile shape,
+  direction, amplitude, and spatial envelope.
+</p>
+<p>Use <strong>New</strong> to add a feature (it inherits the current feature's settings) and
+<strong>Delete</strong> to remove the selected feature.</p>
+
+<h3>Cross section — Profile Shape</h3>
+<p>Determines the cross-sectional shape of one wave cycle:</p>
+<table>
+  <tr><th>Profile</th><th>Shape description</th></tr>
+  <tr><td class="label">Soft wave</td><td>Cosine half-period — smooth, bell-shaped depression.</td></tr>
+  <tr><td class="label">Round groove</td><td>Parabolic U-shaped groove.</td></tr>
+  <tr><td class="label">Ballnose</td><td>Hemispherical (circular) depression.</td></tr>
+  <tr><td class="label">V-cut</td><td>Linear V-shaped groove.</td></tr>
+  <tr><td class="label">Broad round</td><td>Wide smoothstep-blended round.</td></tr>
+  <tr><td class="label">Cloth fold</td><td>Mixed smooth/sine shape resembling a fabric drape.</td></tr>
+  <tr><td class="label">Double bead</td><td>Two Gaussian bumps side by side.</td></tr>
+  <tr><td class="label">Dune</td><td>Asymmetric dune-like profile (linear + quadratic blend).</td></tr>
+  <tr><td class="label">Sharp step</td><td>Abrupt flat step.</td></tr>
+  <tr><td class="label">Smooth step</td><td>Gradual S-curve step transition.</td></tr>
+</table>
+<p>Each profile is also available as a <strong>(periodic)</strong> variant — the pattern tiles
+continuously rather than fading to zero outside the wave width.</p>
+
+<h3>Path Mode</h3>
+<table>
+  <tr><th>Mode</th><th>Description</th></tr>
+  <tr><td class="label">Global</td><td>The wave runs uniformly across the entire surface with constant amplitude.</td></tr>
+  <tr><td class="label">Packet</td><td>The wave is localised in a band. A Gaussian envelope attenuates amplitude away from the centre in both U and V directions. Position with <em>Center U/V</em>, size with <em>Size U/V</em>.</td></tr>
+  <tr><td class="label">Drop</td><td>Radial Gaussian centred on one point. Fades in all directions. <em>Angle</em>, <em>Frequency</em>, and <em>Phase</em> have no effect in this mode.</td></tr>
+</table>
+
+<h2>Wave Parameters</h2>
+<p>Percentage values are relative to the normalised surface extent — 100 % equals the full board dimension in that direction.</p>
+<table>
+  <tr><th>Parameter</th><th>Unit</th><th>Description</th></tr>
+  <tr><td class="label">Amplitude</td><td>mm</td><td>Maximum displacement depth. Uses the same units as Length / Width / Height.</td></tr>
+  <tr><td class="label">± Amp (%)</td><td>%</td><td>Sinusoidal modulation of amplitude along the wave. 0 = constant; 50 = varies ±50 %.</td></tr>
+  <tr><td class="label">Width (%)</td><td>%</td><td>Lateral width of one wave profile relative to the surface. Controls how wide each groove or bump is.</td></tr>
+  <tr><td class="label">± Width (%)</td><td>%</td><td>Sinusoidal modulation of width along the wave, creating a varying-width effect.</td></tr>
+  <tr><td class="label">Frequency</td><td>cycles</td><td>Number of wave repetitions per normalised unit along the wave direction.</td></tr>
+  <tr><td class="label">Angle</td><td>°</td><td>Direction of wave propagation (0° = along X / board length). No effect in <em>Drop</em> mode.</td></tr>
+  <tr><td class="label">Phase (%)</td><td>%</td><td>Phase offset of the wave cycle. 100 % = one full cycle (360°). Values outside 0–100 are valid.</td></tr>
+  <tr><td class="label">Shift amp. (%)</td><td>%</td><td>Sinusoidal lateral shift of the wave centre line — creates a weaving motion along the direction.</td></tr>
+  <tr><td class="label">Center U (%)</td><td>%</td><td>U (length) coordinate of the feature centre. Reference for <em>Packet</em> and <em>Drop</em> modes.</td></tr>
+  <tr><td class="label">Center V (%)</td><td>%</td><td>V (height) coordinate of the feature centre.</td></tr>
+  <tr><td class="label">Size U (%)</td><td>%</td><td>Gaussian envelope width along U. Active in <em>Packet</em> and <em>Drop</em> modes.</td></tr>
+  <tr><td class="label">Size V (%)</td><td>%</td><td>Gaussian envelope width along V. Active in <em>Packet</em> and <em>Drop</em> modes.</td></tr>
+</table>
+
+<h2>Combining Features</h2>
+<p>Each feature's displacement is computed independently and added to the surface. Examples:</p>
+<ul>
+  <li>A primary <em>Global</em> wave for the main corrugation + a second feature at higher frequency for fine texture.</li>
+  <li>Two <em>Global</em> features at different angles to produce a cross-hatch or diamond pattern.</li>
+  <li>A <em>Packet</em> feature that adds a localised raised band in the centre of the board.</li>
+  <li>A <em>Drop</em> feature to create a dimple or boss at a specific point.</li>
+</ul>
+
+<h2>Editing an Existing Shape</h2>
+<p>
+  Waveboards stores all parameters with the created geometry. To edit a previously created
+  wave shape, select the element in PYTHA and run <strong>Waveboards</strong> again via the
+  plugin menu — the dialog will re-open with the original parameters loaded.
+</p>
+
+<h2>Tips</h2>
+<div class="note"><strong>Resolution:</strong> Start with low <em>Sections</em> (20–30) and <em>Points / section</em> (32–48) while exploring, then increase for the final result.</div>
+<div class="note"><strong>Units:</strong> Amplitude is in the same units as Length/Width/Height (typically mm). All other wave parameters are in percent of the surface extent.</div>
+<div class="note"><strong>Periodic profiles:</strong> Use <em>(periodic)</em> variants with a <em>Width (%)</em> that divides 100 evenly (e.g. 10, 20, 25) for seamless repeating patterns.</div>
+<div class="note"><strong>Phase alignment:</strong> When stacking two <em>Global</em> features at the same angle, use <em>Phase (%)</em> to control the relative offset between them (50 = half-cycle shift).</div>
+
+</body>
+</html>
