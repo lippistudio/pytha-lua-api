@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://xmlns.pytha.com/plugin_config/1.0">
+  <header>
+    <guid>29ff9415-df6e-446a-9347-24ffff52700e</guid>
+    <version>1.1</version>
+    <pytha-version>26.0</pytha-version>
+    <name>Filler Generator</name>
+    <description>The description of your plugin goes here.</description>
+    <licensing>Information about the licensing terms goes here.</licensing>
+  </header>
+
+  <extension type="function">
+    <entry-point>main</entry-point>
+    <caption>Filler Generator</caption>
+    <description>A short description of the function goes here.</description>
+    <help-file>help.html</help-file>
+  </extension>
+
+  <extension type="edit">
+    <id>filler_history</id>
+    <entry-point>edit_filler</entry-point>
+  </extension>
+</plugin>

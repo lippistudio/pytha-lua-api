@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff srcLang="en-US" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file original="filler.lua">
+    <unit id="51d4a753ed837d07">
+      <segment>
+        <source>Panel</source>
+      </segment>
+    </unit>
+    <unit id="21f4091b90960be0">
+      <segment>
+        <source>No data found</source>
+      </segment>
+    </unit>
+    <unit id="71083e758a7258eb">
+      <segment>
+        <source>Filler Generator</source>
+      </segment>
+    </unit>
+    <unit id="6726b235d785d68e">
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="7cc83fb8f14d8c4a">
+      <segment>
+        <source>Length</source>
+      </segment>
+    </unit>
+    <unit id="6f3609ef9692f359">
+      <segment>
+        <source>Depth</source>
+      </segment>
+    </unit>
+    <unit id="55d34893090171c6">
+      <segment>
+        <source>Pick Depth</source>
+      </segment>
+    </unit>
+    <unit id="55080f47c80745ec">
+      <segment>
+        <source>Height</source>
+      </segment>
+    </unit>
+    <unit id="6950dafe2ae1fd7e">
+      <segment>
+        <source>Pick Height</source>
+      </segment>
+    </unit>
+    <unit id="7bbee9a39cf38b99">
+      <segment>
+        <source>Panel Thickness</source>
+      </segment>
+    </unit>
+    <unit id="037aaee42aca0736">
+      <segment>
+        <source>Carcass Thickness</source>
+      </segment>
+    </unit>
+    <unit id="59ac37bf328408a5">
+      <segment>
+        <source>No of Ribs</source>
+      </segment>
+    </unit>
+    <unit id="08ebad44eb022916">
+      <segment>
+        <source>Rotation</source>
+      </segment>
+    </unit>
+    <unit id="6a5cec7e63edb714">
+      <segment>
+        <source>Exposed Side</source>
+      </segment>
+    </unit>
+    <unit id="6826402e51bc2997">
+      <segment>
+        <source>Left Exposed</source>
+      </segment>
+    </unit>
+    <unit id="07c35d43ad92b56d">
+      <segment>
+        <source>Right Exposed</source>
+      </segment>
+    </unit>
+    <unit id="32d77351f401b497">
+      <segment>
+        <source>Front Left Radius</source>
+      </segment>
+    </unit>
+    <unit id="038d9d27b766074a">
+      <segment>
+        <source>Segments</source>
+      </segment>
+    </unit>
+    <unit id="0cf2647dd5931216">
+      <segment>
+        <source>Front Right Radius</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "038d9d27b766074a" string: "Segments"-->
+    <unit id="4947ae62dbe0a532">
+      <segment>
+        <source>Back Left Radius</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "038d9d27b766074a" string: "Segments"-->
+    <unit id="6726fbf68cdc5ff5">
+      <segment>
+        <source>Back Right Radius</source>
+      </segment>
+    </unit>
+    <!--Unit id already exists: "038d9d27b766074a" string: "Segments"-->
+    <unit id="5eaa7ac62caf4ada">
+      <segment>
+        <source>Left Insert</source>
+      </segment>
+    </unit>
+    <unit id="1ef3bff619c1a3dc">
+      <segment>
+        <source>Right Insert</source>
+      </segment>
+    </unit>
+  </file>
+  <file original="plot_file.lua"></file>
+</xliff>
