@@ -6,10 +6,6 @@ Documentation and Samples for PYTHA-Plugins written against the Lua Api.
 
 You can find several sample plugins in the [samples](samples) folder. 
 
-## Tools
-
-- [Plugin-Assistent](tools/plugin-assistent) (German user interface, PYTHA 26 or newer): a PYTHA plugin that creates new plugins (`config.xml`, Lua skeleton, help page), checks and repairs existing plugins and edits `.xlf` translations.
-
 ## Plugin Installation
 
 A PYTHA Plugin is represented by a folder. The name of that folder is the display name of the plugin. To install a plugin, move its folder into `PYTHA-Settings-Directory\plugins`, where `PYTHA-Settings-Directory` is the folder that you can access from PYTHA-Central. In a standard installation, you can find it at `C:\Users\USERNAME\AppData\Roaming\PYTHA25.0`.
